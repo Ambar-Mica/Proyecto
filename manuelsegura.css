@@ -1,0 +1,83 @@
+body{
+    background: color #dbeeff;
+    font-family: 'Segoe UI', sans-serif; 
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #000000;
+}
+header{
+    background-image: url("cielo.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+header h1{
+    font-size: 2rem;
+    margin: 0;
+    color: #000000;
+    text-shadow: 1px 1px 2px #ccbb9f;
+}
+.frase-inicial{
+font-style: italic;
+color: #5e5050;
+margin-top: 0.5rem;
+text-shadow: 1px 1px 1px #ccbb9f;
+}
+nav{
+    background-color:#54aae2;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+nav a{
+color:#5e5050;
+text-decoration: none;
+font.weight: bold;
+transition: color 0.3s ease;
+}
+nav a:hover{
+    color: gold;
+}
+section{
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+section h2{
+    color: #a07059
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#frases table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color:#54aae2 ;
+    box-shadow: 0 2px 8px royalblue;
+}
+#frases th,
+#frases td{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #54aae2;
+}
+#frases th{
+    background-color:#54aae2;
+    color:#5e5050;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+#frases tr:hover{
+    background-color: #54aae2;
+    transition: background-color 0.3s ease;
+}
+#valores {
+  background-color: #54aae2;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
