@@ -1,6 +1,6 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: color #dbeeff;
+    background: color #e6e6e6;
     color: #000000;
 }
 header{
@@ -22,7 +22,7 @@ margin-top: 1rem;
 text-shadow: 1px 1px 1px #c4964b;
 }
 nav{
-    background-color:#54aae2;
+    background-color:#4690c1;
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -32,7 +32,7 @@ nav{
 nav a{
 color:#5e5050;
 text-decoration: none;
-font.weight: bold;
+font-weight: bold;
 transition: color 0.3s ease;
 }
 nav a:hover{
@@ -44,15 +44,14 @@ section{
     margin: auto;
 }
 section h2{
-    color: #a07059
+    color: #5e5e5e;
     text-align: center;
-    margin-bottom: 1rem;
 }
 #frases table{
     width:100%;
     border-collapse: collapse;
     margin-top: 1rem;
-    background-color:#54aae2 ;
+    background-color:#f8f8f8 ;
     box-shadow: 0 2px 8px royalblue;
 }
 #frases th,
@@ -72,8 +71,33 @@ section h2{
     background-color: #54aae2;
     transition: background-color 0.3s ease;
 }
+#datos table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color:#f8f8f8;
+    box-shadow: 0 2px 8px royalblue;
+}
+#datos th,
+#datos td{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #54aae2;
+}
+#datos th{
+    background-color: #54aae2;
+    color:#5e5050;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
 #valores {
   background-color: #54aae2;
   border-radius: 8px;
   padding: 1.5rem;
+}
+#virtudes {
+    background-color: #54aae2;
+    border-radius: 8px;
+    padding: 1.5rem;
 }
