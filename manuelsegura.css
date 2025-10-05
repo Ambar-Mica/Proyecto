@@ -91,13 +91,42 @@ section h2{
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-#valores {
-  background-color: #54aae2;
-  border-radius: 8px;
-  padding: 1.5rem;
-}
-#virtudes {
+#valores table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
     background-color: #54aae2;
     border-radius: 8px;
     padding: 1.5rem;
+}
+#virtudes {
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #54aae2;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+#galeria .contenedor-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.tarjeta-obra {
+  background-color: #50aff3;
+  border: 1px solid #98c9f5;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-obra:hover {
+  transform: scale(1.02);
+}
+
+.tarjeta-obra img {
+  width: 100%;
+  height: auto;
 }
